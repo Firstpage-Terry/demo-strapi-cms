@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "thumbnail_image": {
       "type": "media",
       "multiple": false,

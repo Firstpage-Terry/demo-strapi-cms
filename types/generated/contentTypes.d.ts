@@ -597,6 +597,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     thumbnail_image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
+    title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
